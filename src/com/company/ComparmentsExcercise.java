@@ -16,23 +16,23 @@ public class ComparmentsExcercise {
 
     public void createIntArray(int x, int y, int z) {
 
+        int b = z / y;
 
-        for (int i = 0; i < y; i++) {
+        int[] myArray = new int[b];
+        int helpNo = 0;
 
-            int[] myArray = new int[z / y];
+        for (int i = 0; i < b; i++) {
 
-            for (int j=0; j< z/y ; j++){
+            for (int j = i +b; j< ((1+i)*b); j++)
 
-                myArray[j] = 1 + j;
-                System.out.println(myArray[j]);
-            }
+                helpNo = j;
+                myArray[i] = helpNo + 1;
 
-
-
+            System.out.println(myArray[i]);
         }
 
 
     }
-
-
 }
+
+
