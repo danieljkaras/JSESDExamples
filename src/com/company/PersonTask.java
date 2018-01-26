@@ -1,7 +1,6 @@
 package com.company;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class PersonTask {
 
@@ -18,19 +17,21 @@ public class PersonTask {
     }
 
 
-    public List<PersonTask> addPeople (){
 
+    public void comparePeople() {
+
+        ArrayList Person = new ArrayList();
         PersonTask person1 = new PersonTask("Daniel", "Karaś", "ryba");
         PersonTask person2 = new PersonTask("Anna", "Karaś", "Moszczyna");
         PersonTask person3 = new PersonTask("Łukasz", "Moszczyński", "Moszczu");
-        return Arrays.asList(person1, person2, person3)
+
+        Person.add(person1);
+        Person.add(person2);
+        Person.add(person3);
+
+
+
+
     }
-
-    public void comparePeople (){
-
-        addPeople().get()
-
-    }
-
 
 }

@@ -10,9 +10,10 @@ public class Main {
         // write your code here
 
 
-        //IntegerToBinary myInteger = new IntegerToBinary();
+        IntegerToBinary myInteger = new IntegerToBinary();
 
-        //myInteger.myBiteNo();
+        myInteger.myBiteNo();
+
 
         /*ComparmentsExcercise newCompare = new ComparmentsExcercise();
 
@@ -27,11 +28,11 @@ public class Main {
 
 
 
-        List<PersonTask> myList = new ArrayList<>();
+       // List<PersonTask> myList = new ArrayList<>();
 
-        myList.add(person1);
-        myList.add(person2);
-        myList.add(person3);
+       // myList.add(person1);
+       // myList.add(person2);
+        //myList.add(person3);
 
 
 
